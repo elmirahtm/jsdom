@@ -1,0 +1,37 @@
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1,.box2, .box3, .box4{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 50px 0;
+ 
+
+}
+.box1{color: blue;
+    background-color: blue;
+}
+
+.box2{color: red;
+    background-color: red;
+}
+
+.box3{color: green;
+background-color: green;
+}
+
+.box4{color: black;
+    background-color: black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(300px);
+    gap: 100px;
+}
