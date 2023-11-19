@@ -10,3 +10,4 @@ if (numbers % 2===0) {
 } 
 }
 newdate()
+// bir nece yolla yazdim alinmadi saxladim
