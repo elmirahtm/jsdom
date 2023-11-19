@@ -1,0 +1,10 @@
+img{
+transform: translateX(500px);
+width: 200px;
+}
+button{
+    transform: translateX(500px);
+}
+body{
+    background-color: black;
+}
