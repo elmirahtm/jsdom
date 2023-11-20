@@ -1,0 +1,66 @@
+img{
+    width: 400px;
+    height: 500px;
+    transform: translateX(400px);
+}
+#qazver{
+   
+    background-color: green;
+}
+#dayan{
+    transform: translateX(400px) ;
+    background-color: red;
+}
+#qazver,#dayan{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.red{
+    animation: elmira 2s infinite;
+}
+@keyframes elmira{
+
+    0%{  margin-left: 100px;}
+    25%{  margin-left: 230px;}
+    50%{  margin-left: 390px;}
+    75%{  margin-left: 450px;}
+    100%{  margin-left: 0px;}
+
+}
+
+.stop{
+    animation: none;
+}
+
+
+/* bu yollada olar yeni translate ile */
+
+/* @keyframes elmira{
+
+
+    0%{
+   transform: translateX(0px);
+    }   
+   25%{
+       transform: translateX(100px);
+   }
+    50%{
+   transform: translateX(260px);
+    }
+   750%{
+   transform: translateX(300px);
+    }
+    100%{
+       transform: translateX(380px);
+    }
+    50%{
+        transform: translateX(400px);
+         }
+         25%{
+            transform: translateX(500px);
+        }
+      
+        
+   } */
