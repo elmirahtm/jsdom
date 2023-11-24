@@ -1,0 +1,26 @@
+/* 
+body{
+    background: #0f0c29;  
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);} */
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(120px);
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 3px 2px 15px rgb(198, 29, 29);
+}
+.same{
+    cursor: pointer;
+    user-select: none;
+    color: rgb(198, 29, 29);
+}
+img{
+    width: 160px;
+}
